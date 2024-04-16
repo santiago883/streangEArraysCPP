@@ -3,23 +3,18 @@
 
 
 int main(){
+    //exer 1
     std::string palavra ;
 
 
-    printf("digite uma palavra");
-    std::cin >> palabra ;
+    std::cout <<("digite uma palavra\n");
+    getline(std::cin, palavra);
+    std::cout<<"a palabra "<<palavra<<" tem " <<palavra.size()<<" palavras.\n"<<std::endl;
+    
 
 
-    printf("sua palavra è %s e ela tem %zu", palavra, palavra.size());
-
-
-    // std::string str = "Hello, world!";
-    // int pos = str.find("world");
-    // if(pos != std::string::npos) {
-    //     printf("Encontrado na posição: %d\n", pos);
-    // }else{
-    //     printf("Não encontrado\n");
-    // }
+    std::string p1, p2;
+    std::cout
     
 
     return 0;
